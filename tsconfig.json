@@ -17,7 +17,7 @@
     ],
     "skipLibCheck": true,
     "strict": true,
-    "forceC"react"singInFileNames": true,
+    "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
