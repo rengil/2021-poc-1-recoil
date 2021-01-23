@@ -1,12 +1,12 @@
 import React from 'react';
 import { RecoilRoot } from 'recoil';
 
-import Todos from './Todos';
+import Teams from './teams/teams.presentation';
 
 function App() {
   return (
     <RecoilRoot>
-      <Todos />
+      <Teams />
     </RecoilRoot>
   );
 }
