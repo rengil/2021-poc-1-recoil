@@ -1,12 +1,15 @@
 import React from 'react';
 import { RecoilRoot } from 'recoil';
+import { BrowserRouter, Route, Switch, withRouter } from 'react-router-dom';
 
-import Teams from './teams/teams.presentation';
+import TeamColor from './teams/pages/team-color.presentation';
 
 function App() {
   return (
     <RecoilRoot>
-      <Teams />
+      <BrowserRouter>
+        <Route path="/teams/color" component={TeamColor} />
+      </BrowserRouter>
     </RecoilRoot>
   );
 }
